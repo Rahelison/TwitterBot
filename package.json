@@ -2,14 +2,23 @@
   "name": "twitterbot",
   "version": "1.0.0",
   "description": "",
-  "main": "bot.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rahelison/TwitterBot.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rahelison/TwitterBot/issues"
+  },
+  "homepage": "https://github.com/Rahelison/TwitterBot#readme",
   "dependencies": {
+    "mangodb": "^1.0.0",
     "twitter-api-v2": "^1.13.0"
   }
 }
